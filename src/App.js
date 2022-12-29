@@ -5,9 +5,9 @@ import MovieCard from "./MovieCard";
 import './App.css';
 import SearchIcon from './search.svg';
 
-// 255a585f
+const API_KEY = ""
 
-const API_URL = "http://www.omdbapi.com/?apikey=255a585f"
+const API_URL = `http://www.omdbapi.com/?apikey=${API_KEY}`
 
 const movie1 = {
     "Title": "Assassin's Creed II",
